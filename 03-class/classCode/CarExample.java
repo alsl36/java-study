@@ -2,7 +2,7 @@ package classCode;
 
 public class CarExample {
     public static void main(String[] args) {
-        Car myCar = new Car();
+        Car myCar = new Car("소나타", "흰색");
 
         System.out.println("제작회사: " + myCar.company);
         System.out.println("모델명: " + myCar.model);
